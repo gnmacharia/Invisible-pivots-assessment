@@ -188,6 +188,7 @@ svg text{font-family:var(--sans)}
 
   <div class="hero">
     <p class="eyebrow">Free Assessment &nbsp;·&nbsp; 10 Questions &nbsp;·&nbsp; 3 Minutes</p>
+    <p style="font-family:var(--serif);font-size:1rem;font-style:italic;color:var(--ink-muted);max-width:520px;margin:0 auto 1.75rem;line-height:1.8;border-left:2px solid var(--accent);padding-left:1rem;text-align:left;">In many African traditions, time isn't a resource to be optimised — it's woven from real events, real people, real moments. You don't save time or waste it. You create it. This assessment is built from that same philosophy: that how you show up in the unplanned moments matters far more than any grand strategy.</p>
     <h1>You keep waiting for<br><em>the right conditions.</em><br>They're not coming.</h1>
     <p class="hero-sub">The real question isn't when things will be ideal — it's how you're wired to respond when they're not. This assessment shows you exactly where you stand.</p>
 
@@ -208,27 +209,22 @@ svg text{font-family:var(--sans)}
 
   <div class="section">
     <p class="section-label">What this assessment measures</p>
-    <p class="benefits-intro">In 10 questions, you'll get a clear picture of four things most people never examine.</p>
+    <p class="benefits-intro">In 10 questions, you'll get a clear picture of three things most people have never stopped to examine.</p>
     <div class="benefits-grid">
       <div class="benefit-card">
         <div class="benefit-num">01</div>
-        <div class="benefit-title">Your relationship with uncertainty</div>
-        <div class="benefit-desc">Do you freeze, flee, or move through it?</div>
+        <div class="benefit-title">The broken piano you're avoiding</div>
+        <div class="benefit-desc">How much of your energy is going into resisting your current conditions rather than working with them?</div>
       </div>
       <div class="benefit-card">
         <div class="benefit-num">02</div>
-        <div class="benefit-title">How you respond under constraint</div>
-        <div class="benefit-desc">Constraints are where the best work happens — if you know how to use them.</div>
+        <div class="benefit-title">The wheel you think you're steering</div>
+        <div class="benefit-desc">Stimson didn't choose to love Kyoto. Bouazizi didn't plan to start a revolution. How tightly are you holding a narrative the evidence doesn't support?</div>
       </div>
       <div class="benefit-card">
         <div class="benefit-num">03</div>
-        <div class="benefit-title">Your ability to pause before reacting</div>
-        <div class="benefit-desc">Between what happens and what you do next, there is a space. This measures how well you use it.</div>
-      </div>
-      <div class="benefit-card">
-        <div class="benefit-num">04</div>
-        <div class="benefit-title">The illusion of control you're holding</div>
-        <div class="benefit-desc">We all carry assumptions about what we're steering. This surfaces the ones costing you.</div>
+        <div class="benefit-title">The gap between what happens and what you do next</div>
+        <div class="benefit-desc">Not "do you pause" — everyone thinks they pause. What actually lives in that gap: clarity, noise, habit, or something you've never examined?</div>
       </div>
     </div>
   </div>
@@ -237,20 +233,20 @@ svg text{font-family:var(--sans)}
     <div class="cred-inner">
       <div>
         <p class="section-label" style="text-align:left;margin-bottom:1rem">Who built this</p>
-        <div class="bio-avatar">[X]</div>
-        <p class="bio-name">[Your Name]</p>
-        <p class="bio-role">Writer · Storyteller · [Your Profession]</p>
-        <p class="bio-text">[Your Name] has spent the last [X] years exploring the hidden forces that shape human decisions — through storytelling, research, and conversation. With an audience across Kenya, Tanzania, South Africa and Zimbabwe, their work sits at the intersection of philosophy, psychology, and everyday life. This assessment distills that work into something you can act on today.</p>
+        <div class="bio-avatar">GM</div>
+        <p class="bio-name">Grace Macharia</p>
+        <p class="bio-role">Writer · Storyteller · Education & Digital Development</p>
+        <p class="bio-text">A decade in African education and development taught me one thing above everything else: the moments that actually change things are almost never the ones you planned for. I'm Grace Macharia — I work on digital literacy and teaching practice across Africa by day, and I tell stories about randomness, decision-making, and the broken pianos that become masterpieces by night.</p>
       </div>
       <div>
         <p class="section-label" style="text-align:left;margin-bottom:1rem">Grounded in research</p>
         <div class="research-item">
-          <p class="research-quote">"The capacity to tolerate uncertainty is one of the strongest predictors of adaptive decision-making under pressure."</p>
-          <p class="research-source">Greco & Roger, Journal of Personality & Individual Differences, 2001</p>
+          <p class="research-quote">"African time is two-dimensional: a long past, a dynamic present and virtually no future. Time is woven out of real events, real people and community life."</p>
+          <p class="research-source">John S. Mbiti, African Religions and Philosophy, 1969</p>
         </div>
         <div class="research-item">
-          <p class="research-quote">"Psychological flexibility — the ability to respond with awareness rather than automatic reaction — is central to mental resilience."</p>
-          <p class="research-source">Hayes et al., Acceptance and Commitment Therapy, 2006</p>
+          <p class="research-quote">"The capacity to tolerate uncertainty is one of the strongest predictors of adaptive decision-making under pressure."</p>
+          <p class="research-source">Greco & Roger, Journal of Personality & Individual Differences, 2001</p>
         </div>
         <div class="research-item">
           <p class="research-quote">"Constraints activate cognitive reframing, often producing more original outcomes than unconstrained conditions."</p>
@@ -811,7 +807,7 @@ function downloadPDF(){
 
   doc.setDrawColor(224,216,204);doc.line(20,165,190,165);
   doc.setFontSize(9);doc.setTextColor(138,132,122);
-  doc.text('invisiblepivots.com  ·  [Your Name]  ·  This assessment is free to share.',105,172,{align:'center'});
+  doc.text('Grace Macharia  ·  This assessment is free to share.',105,172,{align:'center'});
 
   doc.save(`invisible-pivots-results-${userName.toLowerCase()}.pdf`);
 }
